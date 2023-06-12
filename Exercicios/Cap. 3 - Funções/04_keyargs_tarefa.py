@@ -8,7 +8,15 @@ def minha_funcao(arg1, arg2, *, suprimir_exceptions=False):
 
 def main():
     # Tente fazer a chamada da função sem o nome do argumento
-    minha_funcao(1, 2, True)
+    # minha_funcao(1, 2, True)
+    # Recebemos um TypeError
+    # minha_funcao() takes 2 positional arguments but 3 were given
+
+    # Como temos um argumento com * necessitamos
+    # passar os valores dos argumentos que aparecem
+    # depois dele, de forma nomeada, 
+    # argumentos nomeados não precisam ser passados na ordem.
+    minha_funcao(1, 2, suprimir_exceptions=True)
 
 
 if __name__ == "__main__":
