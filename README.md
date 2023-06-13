@@ -1,2 +1,2 @@
-# Exercicios Curso Python Avancado
- Exercicios realizados durante o Curso Python Avancado
+# Exercícios Curso Python Avançado
+ Exercícios realizados durante o Curso Python Avançado
