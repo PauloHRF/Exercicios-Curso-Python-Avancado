@@ -7,7 +7,7 @@ def main():
               'maçã', 'uva', 'banana', 'banana']
 
     # TODO: Use um dicionário default para contar cada elemento
-    contador_frutas = {}
+    contador_frutas = collections.defaultdict(int)
 
     # Conte os elementos da lista
     for fruta in frutas:
