@@ -11,8 +11,17 @@ def main():
     print(pares_quadrado)
 
     # TODO: Crie uma lista nova a partir de uma lista preexistente
+    # Lista foi transformada de forma mais simples que
+    # utilizando os metodos anteriores
+    pares_quadrado = [n ** 2 for n in pares]
+    print(pares_quadrado)
+
 
     # TODO: Use o predicado para limitar os itens
+    # Neste exercicio utilizamos uma condição if
+    # para limitar os números transformados
+    impares_quadrado = [n ** 2 for n in impares if n > 3 and n < 17]
+    print(impares_quadrado)
 
 
 if __name__ == "__main__":
