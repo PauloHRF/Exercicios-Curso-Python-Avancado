@@ -9,17 +9,19 @@ class Coordenada():
     def __repr__(self):
         return "<Coordenada x:{0},y:{1}>".format(self.x, self.y)
 
-    # TODO: Implemente adição
+    # TODO: Implemente adição 
     def __add__(self, other):
-        pass
+        return Coordenada(self.x + other.x, self.y + other.y)
 
     # TODO: Implemente subtração
     def __sub__(self, other):
+        return Coordenada(self.x - other.x, self.y - other.y)
 
     # TODO: Implemente adição in-place
     def __iadd__(self, other):
-        pass
         self.x += other.x
+        self.y += other.y
+        return self
 
 
 def main():
